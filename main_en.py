@@ -8,10 +8,14 @@ def alkrechner():
     prozente = {}
 
     for i in range(getraenke):
-        print(f"\Drink #{i+1}")
-        ml[i] = int(input("How much of this drink are you going to add?(ml) "))
-        prozente[i] = float(input("How much alcohol does your drink have?(%) "))
-        print("")
+        while True:
+            try:                       
+                print(f"\Drink #{i+1}")
+                ml[i] = int(input("How much of this drink are you going to add?(ml) "))
+                prozente[i] = float(input("How much alcohol does your drink have?(%) "))
+                print("")
+            except:
+                print("\nNo Input...")
 
     MlAlkPaare = []
 
