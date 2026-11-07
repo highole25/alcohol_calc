@@ -8,6 +8,7 @@ def alkrechner():
     prozente = {}
 
     for i in range(getraenke):
+        print(f"\nGetraenk #{i+1}")
         ml[i] = int(input("Wie viel ml hat dein Getränk? "))
         prozente[i] = float(input("Wie viel % hat dein Getränk? "))
         print("")
