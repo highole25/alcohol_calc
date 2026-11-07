@@ -10,10 +10,11 @@ def alkrechner():
     for i in range(getraenke):
         while True:
             try:                       
-                print(f"\Drink #{i+1}")
+                print(f"\nDrink #{i+1}")
                 ml[i] = int(input("How much of this drink are you going to add?(ml) "))
                 prozente[i] = float(input("How much alcohol does your drink have?(%) "))
                 print("")
+                break
             except:
                 print("\nNo Input...")
 

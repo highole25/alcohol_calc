@@ -14,6 +14,7 @@ def alkrechner():
                 ml[i] = int(input("Wie viel ml hat dein Getränk? "))
                 prozente[i] = float(input("Wie viel % hat dein Getränk? "))
                 print("")
+                break
             except:
                 print("\nKeine Eingabe vorhanden...")
 
