@@ -4,5 +4,5 @@ simple, terminal based python script for calculating the alcohol percentage of y
 (decimals have to be seperated by periods)
 
 languages:
-- german (main.py)
-- english (main_en.py)
+- german
+- english
